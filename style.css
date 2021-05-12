@@ -1,0 +1,45 @@
+header{
+    background-color: rgb(114, 209, 173);
+}
+body{
+    background-color:rgb(65, 202, 150);
+}
+.containers{
+	display: grid;
+	background-color: var(--negro);
+	
+	grid-template-columns: repeat(5, 1fr);
+	gap: 10;
+	grid-template-rows: minmax(100px auto);
+	
+}
+.containers div{
+	background:var(--negro);
+	padding:1;
+	
+}
+.containers div:hover{
+	border: 3 solid rgb(58, 202, 114);
+	margin: 6px;
+}
+
+
+.row{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 15px;
+}
+.rowi{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 15px;
+}
+.row h2 {
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}

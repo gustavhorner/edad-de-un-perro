@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" href="style.css">
+<head>
+	
+<title>mascotas</title>
+</head>
+<header>
+	<h1>Belka y strelka</h1>
+	<section>
+	<div class="row">
+		<h2><a name="strelka"></a>belka</h2>
+		<h2>Belka y strelka</h2>
+	<div class="containers">
+	<!-- div*2>lorem20-->
+	<div>
+		
+		<a title="El hombre de hierro" href=""><img src="cpu.jpg" style="width:100%" height="auto" /></a>
+		</a>
+	</div>
+	<div>
+		<a title="mujer maravilla" href=""><img src="frenteperro.jpg" style="width:100%" height="auto" /></a>
+		</a>
+	</div>
+	<div>
+		<a title="El hombre de acero" href=""><img src="jugando.jpg" style="width:100%" height="auto"/></a>
+		</a>
+	</div></header>
+	</section>
+
+
+<body>
+	<header><h1>Calcular la edad de tu mascota</h1></header>
+<br><br><br>
+<label for="Edad de la mascota:"></label>
+
+ <input type="number" id="numeroA">
+
+<button id="btn">Calcular</button>
+
+<br><br><br>
+    <p >Edad  en años humanos:</p>
+	<div id="resultado"></div>
+
+	<script>
+	
+	function operacion() 
+{
+		var n1=parseInt(document.getElementById('numeroA').value);
+
+		
+	
+	var mito=n1*7;
+	var verdad=Math.ceil(16*Math.log(n1)+31);
+		
+		document.getElementById("resultado").innerHTML = "resultado es <br> mito de la edad perro a humana =" + mito +"<br> Edad humana real=" + verdad;		
+	}
+var b=document.getElementById('btn');
+	
+b.addEventListener('click',operacion);
+
+	</script>
+
+</body>
+
+</html>
