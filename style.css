@@ -43,3 +43,9 @@ body{
     letter-spacing: 2px;
     margin-bottom: 0px;
 }
+script{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+}
